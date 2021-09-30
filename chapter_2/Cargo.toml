@@ -1,0 +1,23 @@
+[package]
+name = "chapter_2"
+version = "0.0.0"
+
+[[bin]]
+name = "ch2_1_ok"
+path = "2_1_ok.rs"
+
+[[bin]]
+name = "ch2_2_add"
+path = "2_2_add.rs"
+
+[[bin]]
+name = "ch2_3_numbers"
+path = "2_3_numbers.rs"
+
+[[bin]]
+name = "ch2_4_bases"
+path = "2_4_bases.rs"
+
+[[bin]]
+name = "ch2_5_try_into"
+path = "2_5_try_into.rs"
