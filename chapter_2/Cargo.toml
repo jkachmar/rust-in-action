@@ -41,3 +41,7 @@ path = "2_8_match.rs"
 [[bin]]
 name = "ch2_12_mandelbrot"
 path = "2_12_mandelbrot.rs"
+
+[[bin]]
+name = "ch2_17_generic_add"
+path = "2_17_generic_add.rs"
