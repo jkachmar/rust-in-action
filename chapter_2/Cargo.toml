@@ -33,3 +33,7 @@ path = "2_6_complex.rs"
 [[bin]]
 name = "ch2_7_while"
 path = "2_7_while.rs"
+
+[[bin]]
+name = "ch2_8_match"
+path = "2_8_match.rs"
