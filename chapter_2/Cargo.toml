@@ -3,6 +3,9 @@ name = "chapter_2"
 version = "0.0.0"
 edition = "2018"
 
+[dependencies]
+num = "0.4" # Needed for 'ch2_6_complex'
+
 [[bin]]
 name = "ch2_1_ok"
 path = "2_1_ok.rs"
@@ -22,3 +25,7 @@ path = "2_4_bases.rs"
 [[bin]]
 name = "ch2_5_try_into"
 path = "2_5_try_into.rs"
+
+[[bin]]
+name = "ch2_6_complex"
+path = "2_6_complex.rs"
