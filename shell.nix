@@ -4,6 +4,7 @@
 pkgs.mkShell {
   buildInputs = (with pkgs.rust.packages.stable; [
   ]) ++ (with pkgs; [
+    # Rust toolchain management.
     rustup
   ]);
 }
