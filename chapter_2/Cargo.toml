@@ -49,3 +49,7 @@ path = "2_17_generic_add.rs"
 [[bin]]
 name = "ch2_18_grep_lite"
 path = "2_18_grep_lite.rs"
+
+[[bin]]
+name = "ch2_20_manual_increment"
+path = "2_20_manual_increment.rs"
