@@ -5,6 +5,7 @@ edition = "2018"
 
 [dependencies]
 num = "0.4" # Needed for 'ch2_6_complex'
+regex = "1" # Needed for 'ch2_24_grep_lite' and later
 
 [[bin]]
 name = "ch2_1_ok"
@@ -61,3 +62,7 @@ path = "2_21_defining_arrays.rs"
 [[bin]]
 name = "ch2_22_vectors"
 path = "2_22_vectors.rs"
+
+[[bin]]
+name = "ch2_24_grep_lite"
+path = "2_24_grep_lite.rs"
