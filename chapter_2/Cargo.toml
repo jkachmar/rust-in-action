@@ -4,6 +4,7 @@ version = "0.0.0"
 edition = "2018"
 
 [dependencies]
+clap = "2"  # Needed for 'ch_2_26_grep_lite' and later
 num = "0.4" # Needed for 'ch2_6_complex'
 regex = "1" # Needed for 'ch2_24_grep_lite' and later
 
@@ -66,3 +67,7 @@ path = "2_22_vectors.rs"
 [[bin]]
 name = "ch2_24_grep_lite"
 path = "2_24_grep_lite.rs"
+
+[[bin]]
+name = "ch2_26_grep_lite"
+path = "2_26_grep_lite.rs"
