@@ -57,3 +57,7 @@ path = "2_20_manual_increment.rs"
 [[bin]]
 name = "ch2_21_defining_arrays"
 path = "2_21_defining_arrays.rs"
+
+[[bin]]
+name = "ch2_22_vectors"
+path = "2_22_vectors.rs"
