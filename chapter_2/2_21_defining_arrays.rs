@@ -13,6 +13,8 @@ fn main() {
         }
 
         let mut sum = 0;
+
+        #[allow(clippy::needless_range_loop)]
         for i in 0..a.len() {
             sum += a[i];
         }
