@@ -71,3 +71,7 @@ path = "2_24_grep_lite.rs"
 [[bin]]
 name = "ch2_26_grep_lite"
 path = "2_26_grep_lite.rs"
+
+[[bin]]
+name = "ch2_28_file_bufreader"
+path = "2_28_file_bufreader.rs"
