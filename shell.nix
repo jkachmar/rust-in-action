@@ -6,5 +6,8 @@ pkgs.mkShell {
   ]) ++ (with pkgs; [
     # Rust toolchain management.
     rustup
+    # `cargo-edit` dependency.
+    pkgconfig
+    openssl
   ]);
 }
